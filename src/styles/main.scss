@@ -1,0 +1,17 @@
+@use "variables" as *;
+@use "components/header" as *;
+@use "components/page-title" as *;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: $color-bg-gray;
+}
+
+.container {
+  max-width: $container-width;
+  padding: 0 $container-padding;
+  margin: 0 auto;
+}

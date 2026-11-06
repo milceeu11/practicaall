@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
+    <title>practika</title>
+  </head>
+  <body>
+      <header class="header" id="header">
+          <div class="container">
+              <div class="header__brand">
+                  <button class="header__menu" type="button" aria-label="Открыть меню" id="burger">
+                      <img src="/src/assets/svg/burger.svg" alt="">
+                  </button>
+                  <span class="header__divider" aria-hidden="true"></span>
+                  <a class="header__logo" href="#" aria-label="CPS — главная">
+                      <img src="/src/assets/svg/Logo.svg" alt="CPS">
+                  </a>
+              </div>
+              <div class="header__actions">
+                <div class="header__contacts">
+                    <a class="header__action" href="tel:+79149999999" aria-label="Позвонить">
+                        <img src="/src/assets/svg/call.svg" alt="">
+                    </a>
+                    <a class="header__action" href="#" aria-label="Написать сообщение">
+                        <img src="/src/assets/svg/chat.svg" alt="">
+                    </a>
+                    <a class="header__action" href="#" aria-label="Профиль">
+                        <img src="/src/assets/svg/profile.svg" alt="">
+                    </a>
+                </div>
+                <span class="header__divider header__divider--actions" aria-hidden="true"></span>
+                <div class="header__tools">
+                    <a class="header__action" href="#" aria-label="Ремонт и обслуживание"><img src="/src/assets/svg/repair.svg" alt=""></a>
+                    <a class="header__action" href="#" aria-label="Проверить статус"><img src="/src/assets/svg/checkstatus.svg" alt=""></a>
+                </div>
+            </div>
+          </div>
+      </header>
+      <main>
+
+          <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">Услуги и сервисы</h1>
+
+                <div class="hero__tab--menu">
+                    <button class="hero__tab--btn active">Ремонтируемые устройства</button>
+                    <button class="hero__tab--btn">Дополнительные услуги</button>
+                    <button class="hero__tab--btn">Цены на услуги</button>
+                    <button class="hero__tab--btn">Адреса сервисных центров</button>
+                    <button class="hero__tab--btn">Специальные цены</button>
+                    <button class="hero__tab--btn">Отзывы</button>
+                </div>
+
+                <div class="hero__about">
+                  <div class="hero__about--content">
+                    <p class="about__content--text" id="text">
+                      Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+                    </p>
+                    <p class="about__content--text about__content--text_extra">
+                      Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+                    </p>
+                    <button class="about__more" id="more" type="button">
+                      <svg class="about__more-icon" width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true" focusable="false">
+                        <path d="M3 4.5L9 9.5L15 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3 9.5L9 14.5L15 9.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                      <span>Читать далее</span>
+                    </button>
+                  </div>
+
+                  <img class="about__img" src="/src/assets/img/Picture Copy.png" alt="Вывеска CPS">
+                </div>
+            </div>
+          </section>
+
+      </main>
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>
